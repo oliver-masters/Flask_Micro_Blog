@@ -17,6 +17,7 @@ email-validator = "^2.0.0.post2"
 flask-mail = "^0.9.1"
 pyjwt = "^2.7.0"
 flask-bootstrap = "^3.3.7.1"
+flask-moment = "^1.0.5"
 
 
 [build-system]
