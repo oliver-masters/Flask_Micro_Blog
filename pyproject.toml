@@ -20,9 +20,12 @@ flask-bootstrap = "^3.3.7.1"
 flask-moment = "^1.0.5"
 
 
+[tool.poetry.group.dev.dependencies]
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 flask = "flask run --host 0.0.0.0"
+tests = "python -m unittest discover ./tests"

@@ -600,4 +600,4 @@ email = ["email-validator"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2f5660984662eb061379b08eeb87e47bd063af0e8a7690a03ee7c84bf48503a8"
+content-hash = "e0648e2009919a28fa291ce1f1f3b0e54e86ea72c378ff1be3c6e4e5588a0a74"
