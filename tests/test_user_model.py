@@ -7,7 +7,7 @@ from app import app, db
 from app.models import User, Post
 
 
-class UserModelCase(unittest.TestCase):
+class TestUserModel(unittest.TestCase):
     def setUp(self):
         self.app_context = app.app_context()
         self.app_context.push()
