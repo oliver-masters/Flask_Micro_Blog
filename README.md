@@ -36,11 +36,3 @@ Run the application locally:
 
 To run the unit tests:
     poetry run poe tests
-
-
-
-## Configuration
-
-
-
-
