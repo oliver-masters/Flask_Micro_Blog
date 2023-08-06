@@ -21,6 +21,11 @@ Create the `venv` for the application:
 
     poetry install
 
+If there is no db, or this is the first time running the application:
+    
+    flask db upgrade
+
+
 #### Run the application
 
 Run the application locally:
